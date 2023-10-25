@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <!-- Jangan lupa tambahkan koneksi HTML ke CSS/Tailwind  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Membuat class container dan ukurannya disini -->
+    <!-- Menambahkan background Images -->
+    <!-- Menambah posisi gambar agar ketengah -->
+    <!-- Mengatur posisi ukurannya -->
+    <div
+      class="container min-h-screen bg-[url('images/image.png')] bg-center bg-cover"
+    >
+      <!-- membuat class name flex pada nav-->
+      <nav class="flex items-center">
+        <img src="images/logo.png" alt="logonyaini" />
+        <ul>
+          <!-- atur warna text agar jadi putih dan tanpa underline-->
+          <!-- ATur posisi text menjadi sejajar -->
+          <!-- Atur margin setelah inline-block dan padding setelah text-white-->
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="images/cart.png" alt="keranjang" />
+      </nav>
+    </div>
+  </body>
+</html>
